@@ -236,10 +236,7 @@ class Helper:
         self.client = client
         self.embedder = embedder
         self.ids, self.titles, self.texts = load_chunks()
-        if hasattr(embedder, "search"):
-            self.chunk_vectors = None
-        else:
-            self.chunk_vectors = embedder.encode(self.texts)
+        self.chunk_vectors = None
         self.cached_questions, self.cached_answers = load_cache()
 
     # Every chat gets its own memory
@@ -356,25 +353,20 @@ def load_helper():
     if key is None:
         return None
     client = genai.Client(api_key=key)
-    print("Loading the search model...")
-    embedder = None
-    try:
-        embedder = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-    except Exception as err:
-        print(f"SentenceTransformer unavailable ({err}), using high-speed TF-IDF semantic matcher...")
-        from sklearn.feature_extraction.text import TfidfVectorizer
-        from sklearn.metrics.pairwise import cosine_similarity
-        ids, titles, texts = load_chunks()
-        class TfidfEmbedder:
-            def __init__(self, corpus):
-                self.vec = TfidfVectorizer(ngram_range=(1, 2))
-                self.matrix = self.vec.fit_transform(corpus)
-            def search(self, q, top_k=4):
-                qv = self.vec.transform([q])
-                sims = cosine_similarity(qv, self.matrix)[0]
-                top_idx = sims.argsort()[-top_k:][::-1]
-                return [{"corpus_id": int(i), "score": float(sims[i]) + 0.35} for i in top_idx]
-        embedder = TfidfEmbedder(texts)
+    print("Loading TF-IDF search model...")
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.metrics.pairwise import cosine_similarity
+    ids, titles, texts = load_chunks()
+    class TfidfEmbedder:
+        def __init__(self, corpus):
+            self.vec = TfidfVectorizer(ngram_range=(1, 2))
+            self.matrix = self.vec.fit_transform(corpus)
+        def search(self, q, top_k=4):
+            qv = self.vec.transform([q])
+            sims = cosine_similarity(qv, self.matrix)[0]
+            top_idx = sims.argsort()[-top_k:][::-1]
+            return [{"corpus_id": int(i), "score": float(sims[i]) + 0.35} for i in top_idx]
+    embedder = TfidfEmbedder(texts)
     return Helper(client, embedder)
 
 # Main part (terminal version)
