@@ -1,10 +1,15 @@
+import os
 import sys
 import time
 import threading
 from flask import Flask, request, jsonify, send_from_directory
 from ask import load_helper
 
-app = Flask(__name__, static_folder="static", static_url_path="/static")
+# Always resolve paths relative to this file so Vercel can find them
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_DIR = os.path.join(BASE_DIR, "static")
+
+app = Flask(__name__, static_folder=STATIC_DIR, static_url_path="/static")
 
 helper = load_helper()
 if helper is None:
@@ -26,11 +31,11 @@ def get_session(chat_id):
 
 @app.route("/")
 def home():
-    return send_from_directory("static", "index.html")
+    return send_from_directory(STATIC_DIR, "index.html")
 
 @app.route("/assets/<path:path>")
 def assets(path):
-    return send_from_directory("static/assets", path)
+    return send_from_directory(os.path.join(STATIC_DIR, "assets"), path)
 
 @app.after_request
 def add_cors_headers(response):

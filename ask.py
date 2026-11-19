@@ -1,13 +1,13 @@
 import os
-os.environ.setdefault("HF_HUB_OFFLINE", "1")
-os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
 import re
 import string
 import sys
 import threading
 import time
-from sentence_transformers import SentenceTransformer, util
 from google import genai
+
+# Base directory so all file paths work on Vercel and locally
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Makes Hindi text print properly on Windows too
 try:
@@ -18,7 +18,10 @@ except Exception:
 # Settings you can change
 MODEL_NAMES = ["gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemma-4-26b-a4b-it"]
 MIN_SCORE = 0.25
-CACHE_FILE = "/tmp/answers_cache.txt" if os.path.exists("/tmp") and not os.path.exists("answers_cache.txt") else "answers_cache.txt"
+CHUNKS_FILE = os.path.join(BASE_DIR, "chunks.txt")
+# Use local answers_cache.txt if it exists, else write to /tmp on Vercel
+_local_cache = os.path.join(BASE_DIR, "answers_cache.txt")
+CACHE_FILE = _local_cache if os.path.exists(_local_cache) else os.path.join("/tmp", "answers_cache.txt")
 HISTORY_TURNS = 3      # how many of the last question+answer pairs the helper remembers
 SHORT_MESSAGE = 6      # messages this short are treated as follow-ups ("explain that with an example")
 
@@ -39,7 +42,7 @@ def clean_title(title):
 
 # Job 2: read chunks.txt and return three lists: ids, titles, texts
 def load_chunks():
-    file = open("chunks.txt", "r", encoding="utf-8")
+    file = open(CHUNKS_FILE, "r", encoding="utf-8")
     content = file.read()
     file.close()
 
@@ -62,55 +65,64 @@ def load_chunks():
 def load_cache():
     questions = []
     answers = []
-    if os.path.exists(CACHE_FILE):
-        file = open(CACHE_FILE, "r", encoding="utf-8")
-        content = file.read()
-        file.close()
-        blocks = content.split("=====")
-        for block in blocks:
-            block = block.strip()
-            if block != "":
-                parts = block.split("\n", 1)
-                if len(parts) == 2:
-                    questions.append(parts[0].strip())
-                    answers.append(parts[1].strip())
+    # Check both local and /tmp locations
+    for path in [_local_cache, os.path.join("/tmp", "answers_cache.txt")]:
+        if os.path.exists(path):
+            file = open(path, "r", encoding="utf-8")
+            content = file.read()
+            file.close()
+            blocks = content.split("=====")
+            for block in blocks:
+                block = block.strip()
+                if block != "":
+                    parts = block.split("\n", 1)
+                    if len(parts) == 2:
+                        q = parts[0].strip()
+                        a = parts[1].strip()
+                        if q not in questions:
+                            questions.append(q)
+                            answers.append(a)
+            break
     return questions, answers
 
 # Job 4: add one answer to the saved-answers file
 def save_to_cache(question, answer):
     with cache_lock:
-        file = open(CACHE_FILE, "a", encoding="utf-8")
-        file.write(question + "\n" + answer + "\n=====\n")
-        file.close()
+        try:
+            file = open(CACHE_FILE, "a", encoding="utf-8")
+            file.write(question + "\n" + answer + "\n=====\n")
+            file.close()
+        except Exception as e:
+            print("Cache write skipped:", e)
 
 # Job 5: look for a question in the saved answers with flexible matching
 def find_in_cache(question, cached_questions, cached_answers):
     q_norm = normalize(question)
     if not q_norm:
         return ""
-    
+
     # 1. Exact normalized match
     for i in range(len(cached_questions)):
         if normalize(cached_questions[i]) == q_norm:
             return cached_answers[i]
-            
+
     # 2. Key phrases and smart submatch
     q_words = set(q_norm.split())
     stop = {"what", "is", "a", "an", "the", "tell", "me", "about", "how", "to", "on", "in", "my", "help", "with", "hi", "hey"}
     sig_q_words = q_words - stop
-    
+
     best_idx = -1
     best_score = 0
-    
+
     for i in range(len(cached_questions)):
         c_norm = normalize(cached_questions[i])
         c_words = set(c_norm.split())
         sig_c_words = c_words - stop
-        
+
         # Substring check
         if q_norm in c_norm or c_norm in q_norm:
             return cached_answers[i]
-            
+
         # Significant word overlap
         if sig_q_words and sig_c_words:
             overlap = len(sig_q_words.intersection(sig_c_words))
@@ -118,10 +130,10 @@ def find_in_cache(question, cached_questions, cached_answers):
             if score >= 0.5 and overlap > best_score:
                 best_score = overlap
                 best_idx = i
-                
+
     if best_idx >= 0 and best_score >= 1:
         return cached_answers[best_idx]
-        
+
     return ""
 
 # Job 6: small helpers for talking
@@ -218,10 +230,7 @@ def ask_gemini(client, prompt):
 
 # Job 10: search the lessons and return the best hits
 def search_lessons(embedder, chunk_vectors, query):
-    if hasattr(embedder, "search"):
-        return embedder.search(query, top_k=4)
-    query_vector = embedder.encode(query)
-    return util.semantic_search(query_vector, chunk_vectors, top_k=4)[0]
+    return embedder.search(query, top_k=4)
 
 def notes_from_hits(hits, titles, texts):
     notes = ""
@@ -329,12 +338,12 @@ class Helper:
         remember(history, "Helper", full_answer)
         return full_answer, False
 
-# Job 12a: find the API key. First the GEMINI_API_KEY setting, then the .env file next to this file.
+# Job 12a: find the API key. First the GEMINI_API_KEY env var, then the .env file next to this file.
 def read_api_key():
     key = os.environ.get("GEMINI_API_KEY")
     if key and key.strip() != "":
         return key.strip()
-    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+    path = os.path.join(BASE_DIR, ".env")
     if os.path.exists(path):
         file = open(path, "r", encoding="utf-8-sig")
         for line in file:
