@@ -1,2 +1,26 @@
+# Environment
 .env
+
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# Node
+frontend/node_modules/
+frontend/.vite/
+node_modules/
+
+# Build artifacts (old/stale)
+static/index.html.bak
+
+# OS
+.DS_Store
+Thumbs.db
