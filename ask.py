@@ -18,7 +18,7 @@ except Exception:
 # Settings you can change
 MODEL_NAMES = ["gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemma-4-26b-a4b-it"]
 MIN_SCORE = 0.25
-CACHE_FILE = "answers_cache.txt"
+CACHE_FILE = "/tmp/answers_cache.txt" if os.path.exists("/tmp") and not os.path.exists("answers_cache.txt") else "answers_cache.txt"
 HISTORY_TURNS = 3      # how many of the last question+answer pairs the helper remembers
 SHORT_MESSAGE = 6      # messages this short are treated as follow-ups ("explain that with an example")
 

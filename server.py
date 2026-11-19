@@ -8,8 +8,7 @@ app = Flask(__name__, static_folder="static", static_url_path="/static")
 
 helper = load_helper()
 if helper is None:
-    print("No API key found. Open the .env file, paste your key after GEMINI_API_KEY=, save, then run this again.")
-    sys.exit(1)
+    print("WARNING: No API key found. AI chat will return an error until GEMINI_API_KEY is set.")
 
 MAX_SESSIONS = 200
 sessions = {}          # chat id -> {"session": ..., "last_used": ...}
@@ -68,6 +67,8 @@ def chat():
     chat_id = str(data.get("session_id", "default"))[:64]
     if message == "":
         return jsonify({"reply": "I didn't catch that. Could you type your question again?", "done": False})
+    if helper is None:
+        return jsonify({"reply": "The AI assistant is not configured yet. Please set the GEMINI_API_KEY environment variable.", "done": False}), 503
     try:
         text, done = helper.reply(message, get_session(chat_id))
         return jsonify({"reply": text, "done": done})

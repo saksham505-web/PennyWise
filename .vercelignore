@@ -1,0 +1,22 @@
+# Frontend source (built output in static/ is what matters)
+frontend/
+
+# Large unused files
+transcripts/
+
+# Utility scripts not needed at runtime
+pdf_to_text.py
+make_chunks.py
+list_models.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
