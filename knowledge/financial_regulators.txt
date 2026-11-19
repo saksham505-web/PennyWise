@@ -1,0 +1,14 @@
+TITLE: Who regulates what in Indian finance: RBI, SEBI, IRDAI, PFRDA and NCFE (sources: RBI school booklet, NCFE handbook 2024)
+Different regulators protect you in different areas. Knowing them tells you whether a product is legitimate and where to complain.
+
+RBI (Reserve Bank of India): the central bank, set up in 1935. It issues currency with the government, is banker to the government and banks, runs monetary policy to keep prices stable, regulates and supervises banks to protect depositors, and regulates the payment and settlement system. It also promotes financial literacy. It also regulates NBFCs. DICGC is its subsidiary.
+
+SEBI (Securities and Exchange Board of India): protects investors in the securities market and regulates it, including stock exchanges, brokers and mutual funds. It became a statutory body in 1992 and is based in Mumbai.
+
+IRDAI (Insurance Regulatory and Development Authority of India): regulates and develops the insurance sector. It was set up under the IRDAI Act, 1999, and is in Hyderabad.
+
+PFRDA (Pension Fund Regulatory and Development Authority): regulates the pension sector, including NPS. Set up in 2003, with statutory status from the PFRDA Act, 2013. It is in New Delhi.
+
+NCFE (National Centre for Financial Education) is a not-for-profit company promoted by RBI, SEBI, IRDAI and PFRDA to run financial education campaigns, at ncfe.org.in.
+
+Practical tip: before investing, depositing or borrowing, check that the entity is registered with or regulated by one of these regulators or the Government. If it is not, do not deal with it. RBI says to invest only with such entities.

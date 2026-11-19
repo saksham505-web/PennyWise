@@ -1,0 +1,18 @@
+TITLE: How to complain: bank, RBI Ombudsman, SEBI, IRDAI and PFRDA (sources: RBI FAME 2024, NCFE handbook 2024)
+If a bank or other financial company wrongs you, follow the ladder.
+
+Banking and RBI-regulated entities (banks, NBFCs, payment companies, credit information companies):
+1. First complain to the bank or entity and keep the complaint number or acknowledgement.
+2. If there is no reply within 30 days, or you are not satisfied, complain to the RBI Ombudsman.
+3. File online at cms.rbi.org.in, which is free, open 24x7, gives an instant acknowledgement and lets you track status. Postal filing is also possible. There is no fee, you can file yourself, and you cannot file through an advocate. The matter should not be pending in a court or already settled.
+4. RBI's contact centre (toll-free 14448 in the 2024 booklet) helps with guidance, in Hindi and English, but it does not take complaints.
+
+Securities market (SEBI): approach the broker or company first, then file on SEBI's SCORES portal (scores.gov.in) or call the toll-free numbers 1800 266 7575 or 1800 22 7575.
+
+Insurance (IRDAI): complain to the insurer first. If unresolved, use IRDAI's IGMS portal (igms.irda.gov.in) or call 155255 or 1800 4254 732. Then the insurance ombudsman or consumer forum.
+
+Pension (PFRDA): complain through the subscriber's CRA web portal or call centre, then the Central Grievance Management System, and then the NPS Trust and PFRDA.
+
+Cyber fraud: call 1930 and report at cybercrime.gov.in.
+
+Phone numbers and portals come from 2024 booklets and can change. Confirm them on the regulator's website.

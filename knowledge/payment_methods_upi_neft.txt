@@ -1,0 +1,10 @@
+TITLE: Digital payment methods: UPI, NEFT, RTGS, IMPS and more (sources: RBI FAME 2024, NCFE handbook 2024)
+NEFT, RTGS and IMPS are the main bank transfer channels. NEFT and RTGS run 24x7, even on holidays, per the 2024 RBI and NCFE booklets. RTGS is for large payments, with a minimum of Rs. 2 lakh and no maximum. IMPS is instant with a maximum of Rs. 5 lakh. NEFT has no minimum or maximum. Limits can change, so check with your bank.
+
+UPI (Unified Payments Interface) transfers money between bank accounts using a smartphone. You need a bank account, a mobile number linked to it and internet. You use BHIM or any bank or third-party UPI app, link your account and create a UPI PIN (a debit card is needed once for setup). You can pay using a virtual payment address (UPI ID), a mobile number or a QR code, so you do not share account details. Transfers work instantly, 24x7. UPI can also link to RuPay credit cards. For feature phones, UPI123Pay offers options such as missed call and IVR.
+
+Other methods: *99# (USSD) allows basic mobile banking without internet. Mobile wallets hold money loaded from your account. Prepaid cards spend up to the amount loaded. Debit and credit cards use a PIN and OTP for security. Micro ATMs and AEPS (Aadhaar-enabled payments) are used through bank business correspondents.
+
+Advantages of digital payments: fast, convenient, low cost and a digital record you can track.
+
+UPI Dos: keep the app updated, review collect requests before accepting, and recheck the amount and the name before paying. Don'ts: never share your PIN, and never pay without verifying the recipient. See the UPI safety lesson for scams.

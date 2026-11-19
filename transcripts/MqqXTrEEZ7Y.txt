@@ -1,0 +1,39 @@
+TITLE: Credit 101: What is APR and why does it matter? | Financial mathematics (TX TEKS) | Khan Academy
+- Let's talk a little bit about credit and in particular, how
+much you pay for credit. So just as a reminder, credit
+is essentially the ability or when you actually
+borrow from someone else. It could take the form of a mortgage where say you're borrowing
+money to buy a house, or it could take the form of a credit card where when you purchase
+things with that credit card you are borrowing money
+from the bank issuer in order to purchase whatever you want. Now, credit can be useful, it could be convenient in
+the case of a credit card where you don't have to carry cash around. Some places only accept
+credit or a credit card, and it can help you sometimes
+make good investments. For example, if you borrow money in order to make an investment
+that's going to return more money than you put in. But you have to be careful, there's always some risk involved, that actually could be a
+good financial decision. Now, we also have to be
+very, very, very careful, especially, if you're using
+credit to buy something that isn't an investment. That's really just all about consumption. Hey, there's a new outfit I want I'm going to use credit for it. Maybe you're using it for the convenience and you're going to pay off the balance at the end of the month, but if you are using it because you actually don't have the money that is a bad sign. That is a sign that you
+are spending more money than you are bringing in, and you're using credit to
+kind of not notice that. And the reason why that's
+a big deal was one, you are spending unsustainably, but the other issue is there is usually a pretty significant cost
+especially to credit cards. All credit, someone is
+going to charge you interest for the amount that you borrow and there's usually going to
+be some fees on top of that. And one way to think
+about the cost of credit you'll see something called APR. These are annual percentage rate. And what they do in the
+case of a credit card, they look at your average daily balance and they're gonna charge you
+a certain amount of interest plus fees on that average daily balance. Now, if you were to just
+keep that balance all year, you would actually have to compound that average daily balance by 365 days. But to simplify the calculation, APR just takes how much interest
+you would pay times 365. So it actually understates a little bit. It's actually the interest
+plus the fees you would pay as a percentage times 365
+which actually understates a little bit what you would pay if you actually had to compound. But it's a good standardized
+measure of roughly what you're going to pay for a loan. It's not uncommon for a credit card APR to be in the high 10s or even in the 20s. In some cases I've even
+seen them in the 30% range. That's a lot of expense
+to pay to borrow money, especially if you're not
+using it for investments. Mortgages will also have APRs although they will be significantly lower, mainly because of people lending to you, view that as a safer bet
+from their point of view. And even when you're using credit for what you think are investments, you have to be very conscientious of risk because credit is really
+a way of getting leverage and we can talk more about
+that in other videos. It can magnify how much you make if say the asset increases in value, but it can also magnify how much you lose if the asset decreases in value. We'll talk about that at other times. But generally speaking, be
+very careful about credit, especially if you're using
+it to consume versus invest. And look at that APR,
+it's a standardized way of really getting a sense
+of how costly that loan is. 

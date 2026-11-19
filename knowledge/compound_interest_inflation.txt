@@ -1,0 +1,10 @@
+TITLE: Interest, compounding, inflation and time value of money (sources: RBI FAME 2024, NCFE handbook 2024)
+Simple interest is calculated only on the original amount. Compounding means interest on interest: the earned interest is added to the principal and earns more. Example from RBI: Rs. 10,000 at 10 percent compounded yearly becomes Rs. 11,000 after year 1, Rs. 12,100 after year 2 and Rs. 13,310 after year 3. Over 10 years, Rs. 10,000 at 10 percent simple interest becomes Rs. 20,000, but with quarterly compounding it becomes about Rs. 26,851, around 34 percent more. The lesson: stay invested for long, and start early.
+
+Compounding works against you on debt, too. Always annualise interest rates. A lender saying 2 percent per month in small print really means about 24 percent a year.
+
+Rule of 72 (a rough rule of thumb): divide 72 by the yearly rate to estimate how many years it takes to double. At 8 percent, about 9 years.
+
+Inflation is the rate at which prices rise. If 1 kg of apples goes from Rs. 100 to Rs. 110, inflation is 10 percent and your cost of living has risen. Your real return is your return minus inflation. Money in a deposit at 6 percent with 4 percent inflation earns a real 2 percent. Cash kept at home earns 0 percent, so it loses 4 percent of its value. A 5 percent return with 7 percent inflation is a real loss of 2 percent. So aim for returns above inflation to protect your money's value.
+
+Time value of money: money today is worth more than the same amount later, because it can earn. At 10 percent, Rs. 100 becomes Rs. 121 in 2 years, so receiving Rs. 121 after 2 years equals Rs. 100 today.

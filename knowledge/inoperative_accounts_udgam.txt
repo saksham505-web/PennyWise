@@ -1,0 +1,12 @@
+TITLE: Inoperative accounts and unclaimed deposits: UDGAM portal (source: RBI FAME 2024)
+A savings or current account is inoperative if there has been no customer-initiated transaction for over two years. Banks separate such accounts to reduce fraud risk. Credit of interest on a fixed deposit or dividend into the account counts as a customer-initiated transaction.
+
+Reactivating: update your KYC at any branch, including a non-home branch, or through video KYC if your bank offers it. The bank must activate the account within three working days after the KYC checks, and must inform you by SMS and email. There is no charge for reactivation. Interest on a savings account keeps getting credited even if the account is inoperative.
+
+Unclaimed fixed deposits: if a fixed deposit matures and the money is left unclaimed, the bank pays interest at the lower of the savings account rate or the contracted rate.
+
+Banks must publish on their websites the list of accounts inactive for ten years or more, with a search by name.
+
+Deposits unclaimed for ten years are moved to RBI's Depositor Education and Awareness (DEA) Fund. To find yours, RBI launched the UDGAM portal (udgam.rbi.org.in) on 17 August 2023. It lets you search for unclaimed deposits across multiple banks. As of the 2024 RBI booklet, 30 banks were covered, and the number may have grown. After a successful search, you get an Unclaimed Deposit Reference Number (UDRN) and visit the bank branch to claim the money or reactivate the account.
+
+A tip for students: if you opened an account long ago and forgot it, check it. Use it occasionally, or close it properly.

@@ -1,0 +1,16 @@
+TITLE: UPI payments and common UPI scams (sources: RBI FAME 2024, NCFE handbook 2024)
+UPI is safe when you follow the rules. Most losses happen because people are tricked, not because the system is hacked.
+
+The golden rule: you enter your UPI PIN only to SEND money. If an app asks for your PIN, you are sending money, not receiving it. Never scan a QR code or approve a request to receive money. Receiving money needs no PIN or QR scan.
+
+Common scams and what RBI and NCFE say to avoid:
+1. Collect request scam: a stranger sends a collect request promising money. Approving it takes money out.
+2. Fake customer care: never call numbers shown directly in search results, because fraudsters camouflage them. Use the number on your card or the official app. Never install an app because an unknown person asks you to, and never share OTPs, PINs, CVV or passwords. A real bank never asks for them, even by email.
+3. Fake prize, KYC update or government aid messages: ignore and delete them. Do not click unknown links.
+4. Job scams: a genuine company never asks you to pay money to get a job.
+5. Money mule trap: do not let anyone use your account to receive and move money for a commission.
+6. Fake payment screenshots: confirm the credit in your own bank app before handing over goods.
+
+Safe habits: keep apps updated, type the bank's web address yourself and check the https lock, use strong passwords, avoid public Wi-Fi and cyber cafes for banking, turn on SMS and email alerts, and download apps only from official stores. ATM tips: use an EMV chip card, cover the keypad, look for skimmers, never write your PIN on the card, and block a lost card immediately.
+
+If something goes wrong, act immediately (see the lesson on reporting online fraud).

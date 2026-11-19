@@ -1,0 +1,19 @@
+TITLE: What to do if you lose money to online fraud and your liability (sources: RBI FAME 2024, NCFE handbook 2024)
+Speed matters. Report to your bank immediately, whoever is at fault, because the longer you wait, the bigger the loss.
+
+Steps:
+1. Call your bank now (use the number on your card or the official app) and ask to block the card, UPI or net banking. Get an acknowledgement of your complaint.
+2. Call 1930, the national cybercrime helpline (24x7), and report at cybercrime.gov.in.
+3. Save evidence: screenshots, transaction IDs, numbers and chats.
+4. If the bank does not solve it, complain to the RBI Ombudsman at cms.rbi.org.in.
+
+RBI's customer liability rules, as given in the February 2024 RBI booklet:
+1. If the bank is at fault, you have zero liability, even if you did not report.
+2. If the fault lies elsewhere in the system (third-party breach) and you report within 3 working days, you have zero liability.
+3. If you report after 4 to 7 working days in such a case, your liability per transaction is limited to the transaction value or a cap, whichever is lower: Rs. 5,000 for basic savings accounts and Rs. 10,000 for other savings accounts. Beyond 7 days, the bank's board-approved policy applies.
+4. If the loss is due to your negligence, such as sharing your password, PIN or OTP, you bear the loss until you report it to the bank.
+5. Once you report, losses that happen afterwards are borne by the bank. The bank should credit the disputed amount within 10 working days and resolve the complaint within 90 days.
+
+Failed ATM transactions: banks should resolve them within T+5 days or pay Rs. 100 per day compensation.
+
+Note: RBI has proposed a new framework for digital fraud with different timelines and compensation, so check RBI's website for the latest rules. If you were tricked into approving a payment yourself, getting money back is harder, so prevention is best.

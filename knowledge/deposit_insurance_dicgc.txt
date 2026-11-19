@@ -1,0 +1,16 @@
+TITLE: Deposit insurance: how DICGC protects your bank money (sources: RBI/DICGC booklet 'The Safety Net', RBI FAME 2024, NCFE handbook 2024)
+DICGC (Deposit Insurance and Credit Guarantee Corporation) is a wholly owned subsidiary of RBI. It insures bank deposits. Each depositor in a bank is insured up to a maximum of Rs. 5 lakh, covering both principal and interest, held in the same right and same capacity.
+
+Key facts:
+1. You do not pay anything. Banks pay the premium to DICGC. You are insured automatically if your bank is covered.
+2. All RBI-licensed banks must have deposit insurance. It includes commercial banks, small finance banks, payments banks, regional rural banks and cooperative banks registered with DICGC.
+3. All types of deposit are covered: savings, fixed, recurring and current. Deposits of governments, other banks and deposits received outside India are excluded.
+4. Check whether your bank is insured on dicgc.org.in. Bank websites also show the DICGC logo and QR code.
+
+Same right and same capacity: if you have several accounts in the same capacity, for example savings and fixed deposits as the single holder, they are added together and the limit is Rs. 5 lakh. Accounts in different capacities, such as an individual account, a joint account, a minor's account or an account of a legal entity, each get a separate Rs. 5 lakh cover.
+
+If RBI restricts withdrawals (All Inclusive Directions, or AID): depositors get the insured amount, up to Rs. 5 lakh, within 90 days of the restriction. You submit a claim willingness form, KYC details and an alternate bank account, at the bank or on DICGC's claim willingness portal.
+
+If the bank is liquidated (licence cancelled): you submit KYC and an alternate account to the liquidator, and DICGC pays within two months of receiving the claim list.
+
+Track claims on the Daava Soochak portal, and keep your phone number updated at your bank, since you get SMS updates.

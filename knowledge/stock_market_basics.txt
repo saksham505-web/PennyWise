@@ -1,0 +1,12 @@
+TITLE: Stock market basics for beginners (sources: NCFE handbook 2024, RBI school booklet)
+A share (stock or equity) is a part of ownership in a company. If the company earns profit, shareholders can expect a share of it, and shareholders get certain rights, such as voting at the annual general meeting. Returns depend on the company's profits, so they go up and down.
+
+In India, shares are traded on stock exchanges, mainly the NSE and the BSE. Securities fall into two broad types: equities (shares) and debt securities (bonds, debentures), which have a fixed amount, a maturity date and usually a fixed interest rate, and are often less risky than shares.
+
+Primary market: when a company issues new shares to the public for the first time, often through an IPO, investors are allotted securities directly by the company. Secondary market: after issue, shares are bought and sold on the exchanges between investors through stock brokers.
+
+To invest you need KYC (SEBI requires it for all securities market investors, and it can now be done online with Aadhaar e-KYC), a demat account that holds shares electronically, and a trading account with a SEBI-registered broker. SEBI is the regulator that protects investors.
+
+Cautions: investing in stocks is subject to market risk. Because shares are easy to sell, many investors buy without enough knowledge and end up with losses. Choose after proper study, invest only money you will not need soon, diversify and think long term. High-risk trading such as day trading and futures and options is dangerous for beginners. SEBI's own studies have found that most individual F&O traders lose money.
+
+This is education, not a recommendation about any specific stock.

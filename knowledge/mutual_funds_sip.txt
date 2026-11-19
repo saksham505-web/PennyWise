@@ -1,0 +1,13 @@
+TITLE: Mutual funds and SIP for beginners (sources: NCFE handbook 2024, RBI school booklet)
+A mutual fund pools money from many investors and invests it in shares, bonds, money-market instruments or a mix. What the fund owns is its portfolio. Each investor gets units in proportion to the money invested, and is called a unit holder. The price of a unit is the NAV, which changes daily. A mutual fund must be registered with SEBI before it can collect money from the public. Spreading money across many companies and sectors reduces risk compared with holding one stock.
+
+Types in simple words:
+1. Growth or equity schemes invest mostly in shares for growth over the medium and long term, with comparatively high risk.
+2. Income or debt schemes invest in bonds, government securities and money-market instruments for steadier income, with lower risk than equity.
+3. ELSS is an equity scheme meant for tax saving.
+4. Gold ETFs invest in gold and trade on the stock exchange like a stock.
+5. Index funds follow a market index.
+
+A SIP (systematic investment plan) invests a fixed amount at fixed intervals, usually monthly. Benefits listed by NCFE: the power of compounding, the freedom to choose an amount to suit your budget, and the discipline of investing regularly, a kind of good EMI. Many funds allow small SIPs, so a student can start small.
+
+Important: returns are not guaranteed. Mutual fund investments are subject to market risks. Equity funds suit long periods, usually five years or more, so do not invest money you will need soon. Complete KYC and invest only through SEBI-registered platforms. Compare costs, since direct plans usually have lower expenses than regular plans. This is education, not personal advice. Learn more at mutualfundssahihai.com.

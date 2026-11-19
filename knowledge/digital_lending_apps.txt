@@ -1,0 +1,18 @@
+TITLE: Digital lending apps and safe borrowing (sources: RBI FAME 2024, NCFE handbook 2024)
+Digital lending apps (DLAs) let you apply for a loan on your phone. Legitimate ones belong to banks and NBFCs, or to lending service providers working for them. Many fake or abusive apps also exist.
+
+RBI's advice on responsible borrowing:
+1. Borrow to buy assets that create value or returns, for example a home loan or an education loan. Do not use credit irresponsibly to fund spending.
+2. Borrow from regulated entities (banks, NBFCs, housing finance companies). They are supervised, more transparent, do not overcharge like moneylenders, and give a free complaint system.
+3. Beware of agents who ask a fee to help you get a loan. Deal directly with the bank, NBFC or business correspondent.
+4. Be careful about offers cheaper than banks. They may collect a processing fee and disappear.
+
+Before using a lending app:
+1. Check on the bank's or NBFC's own website that the app is linked to them.
+2. Avoid apps sent as links by SMS or social media.
+3. Check the total cost of the loan, the Annual Percentage Rate (APR) and the Key Fact Statement (KFS).
+4. Read the sanction letter and privacy policy. Documents should be digitally signed and on the bank's or NBFC's letterhead.
+5. Check the permissions the app asks for, and protect your data. Be suspicious if it wants access to contacts or photos.
+6. Report suspicious apps to law enforcement (call 1930 or use cybercrime.gov.in).
+
+Complaints: contact the grievance redressal officer listed on the app or lender's website. If not resolved within 30 days, complain on the RBI CMS portal (cms.rbi.org.in).

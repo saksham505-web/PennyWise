@@ -1,0 +1,12 @@
+TITLE: Insurance basics: health, term, motor and how to buy safely (source: NCFE handbook 2024)
+Insurance protects you from big financial loss. You pay a premium and, if the insured event happens, the insurer pays as per the policy.
+
+Types:
+1. Term insurance: the most basic and cheapest life insurance. It has no savings part. The sum assured is paid to your family if you die during the term, and nothing is paid if you survive. The premium stays constant.
+2. Health insurance: pays hospital costs or a fixed sum on named serious illnesses. Treatment costs have risen sharply and a hospital stay can drain savings. Many employers give group health cover, so understand it, and consider extra cover if it seems too small. IRDAI has standard products such as Arogya Sanjeevani.
+3. Personal accident insurance: covers death or disability due to accident.
+4. Motor insurance: third-party cover is compulsory by law for every vehicle on the road, and driving without it is an offence. Own-damage cover pays for damage to your own vehicle.
+5. Home, travel and home-loan insurance cover specific risks.
+6. Endowment and ULIP plans combine insurance with savings or investment. They cost more than term plans, and in a ULIP the investment risk is yours. Compare carefully.
+
+Buying safely: buy from registered insurers, agents, brokers or licensed web aggregators. Verify the seller's identity and check the IRDAI website. Pay cheques only in the insurer's name. Read the proposal form and policy. If the terms differ from the proposal, you can return the policy within 15 days (the free-look period). Pay premiums regularly and tell your nominee. IRDAI never calls to offer bonuses or sell policies, so ignore such calls. Complaints go to the insurer first, then IRDAI's IGMS portal (igms.irda.gov.in), and then the insurance ombudsman.

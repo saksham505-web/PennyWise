@@ -1,0 +1,148 @@
+how to stay safe on upi?
+Staying safe on UPI is easy once you know how it works, because most problems happen when people get tricked. The most important rule is that you only enter your UPI PIN to send money, never to receive it.
+
+- Enter your UPI PIN only when you want to pay or send money out.
+- Never scan a QR code or accept a collect request to get money into your bank.
+- Double-check the receiver name and the amount before you press pay.
+- Keep your UPI app updated and never share your PIN, OTP, or passwords.
+- Contact customer care only through your official app, not from online search results.
+
+Example: If someone says they are sending you 500 rupees and asks you to scan a QR code or enter your PIN to claim it, do not do it because receiving money needs no PIN.
+
+Remember: Your UPI PIN is strictly for sending money out, never for taking money in.
+
+Want me to quiz you on this to see how well you know UPI safety?
+
+Related lesson: UPI payments and common UPI scams
+=====
+what is sensex
+The Sensex is a benchmark market index representing 30 of the largest, most actively traded companies on the Bombay Stock Exchange (BSE). It reflects overall market health and investor sentiment in India.
+
+- It tracks top bluechip companies across major economic sectors.
+- When share prices of these 30 companies rise overall, the Sensex points go up.
+- Beginners can invest in the broad index through low-cost Index Funds or ETFs.
+
+Example: If the Sensex rises by 1%, it means the collective market valuation of India's top 30 corporations increased by 1% today.
+
+Remember: The Sensex is a market temperature check, not a single stock.
+
+Want to learn about index funds instead?
+
+Related lesson: Other investment options: PPF, NSC, post office schemes, gold and more
+=====
+hi! help me with my budgeting
+Hello! Budgeting is simply giving your money a clear plan before the month begins. It helps you prioritize essentials, enjoy guilt-free leisure, and build savings without stress.
+
+- Follow the 50/30/20 guideline: 50% for Needs, 30% for Wants, and 20% for Savings.
+- Write down all your net take-home income as soon as it arrives.
+- Track daily variable spending (chai, transport, dining) to catch cash leaks early.
+- Automate your savings on day one by "Paying Yourself First".
+
+Example: If your pocket money or stipend is 8,000 rupees: allocate 4,000 rupees for needs (canteen, metro, books), 2,400 rupees for wants (movies, outings), and save 1,600 rupees into your emergency fund.
+
+Remember: A good budget doesn't restrict your freedom; it gives you control over your life.
+
+Want a quick example with your own monthly pocket money?
+
+Related lesson: Budgeting and the 50:30:20 rule
+=====
+tell me about sip
+A Systematic Investment Plan (SIP) is a method of investing a fixed amount of money at regular intervals (usually monthly) into a mutual fund scheme.
+
+- Rupee Cost Averaging: You buy more units when the NAV is low and fewer units when it is high, lowering your average cost.
+- Power of Compounding: Small, regular contributions grow exponentially over long time horizons.
+- Flexibility: You can start with as little as 500 rupees per month and increase it as your income grows.
+- Discipline: It acts like a "good EMI" that automates your wealth-building habit.
+
+Example: If you invest 1,000 rupees every month into a bluechip index fund, you do not have to worry about whether the market is at a peak or a dip—your regular investments average out the price swings.
+
+Remember: SIP is a disciplined contribution vehicle, not an insurance policy against market losses. Mutual fund investments are subject to market risks.
+
+Want to test our 30-Day Accelerated SIP Simulation in the Sims tab?
+
+Related lesson: Mutual funds and SIP for beginners
+=====
+what is an emergency fund?
+An emergency fund is a liquid cash reserve specifically set aside to cover unexpected life emergencies, such as sudden medical bills, urgent home/vehicle repairs, or sudden income loss.
+
+- Aim to save 3 to 6 months of mandatory living expenses.
+- Keep this money strictly in safe, liquid accounts like a high-interest savings account or overnight debt fund.
+- Do not invest emergency cash into volatile stocks or lock it in long-term property.
+- Only tap into it for genuine, urgent, unplanned necessities.
+
+Example: If your essential rent, food, and transit cost 7,000 rupees per month, your ideal starter emergency buffer is between 21,000 and 42,000 rupees.
+
+Remember: An emergency fund is financial shock absorption—it prevents you from borrowing at high interest during a crisis.
+
+Want to set up an emergency savings goal in your Personal Tracker?
+
+Related lesson: Saving money: safety, liquidity and emergency funds
+=====
+what is the 50/30/20 rule?
+The 50/30/20 rule is an intuitive budgeting framework that divides your after-tax monthly income into three distinct buckets:
+
+- 50% for Needs: Mandatory survival expenses like groceries, rent, basic commute, and utility bills.
+- 30% for Wants: Discretionary lifestyle choices like dining out, entertainment, hobbies, and new clothes.
+- 20% for Savings & Debt Reduction: Emergency fund, SIP investments, and paying down high-interest debt.
+
+Example: On a monthly income of 15,000 rupees: allocate 7,500 rupees to Needs, 4,500 rupees to Wants, and 3,000 rupees directly to Savings.
+
+Remember: Pay yourself first by transferring the 20% to savings as soon as your income arrives!
+
+Want to see how your current budget compares to the 50/30/20 guideline?
+
+Related lesson: Budgeting and the 50:30:20 rule
+=====
+what is dicgc deposit insurance?
+DICGC (Deposit Insurance and Credit Guarantee Corporation) is a wholly-owned subsidiary of the Reserve Bank of India that protects your bank deposits if a bank fails.
+
+- Insures deposits up to 5,00,000 rupees (5 Lakhs) per depositor, per insured bank.
+- Covers both principal and interest across savings, current, fixed (FD), and recurring (RD) accounts.
+- If you have multiple accounts in the same bank under the same capacity, they are clubbed together for the 5 Lakh limit.
+- Accounts held in different banks each enjoy a separate 5 Lakh insurance cover.
+
+Example: If you have 4,50,000 rupees principal and 30,000 rupees interest (total 4.8 Lakhs) in an insured bank that liquidates, DICGC refunds the entire 4.8 Lakhs.
+
+Remember: All commercial banks and cooperative banks in India are covered under DICGC deposit insurance.
+
+Related lesson: Deposit insurance and safety of bank deposits (DICGC)
+=====
+what is credit score?
+A credit score is a 3-digit number (ranging from 300 to 900 in India) that indicates your creditworthiness and repayment history to lenders.
+
+- A score of 750 or above is considered excellent and unlocks lower loan interest rates.
+- Key factors: Timely payment history (most important), credit utilization ratio (keep under 30%), age of credit, and credit mix.
+- High-interest late fees and default payments drastically reduce your score.
+- Credit bureaus in India include CIBIL, Experian, Equifax, and CRIF High Mark.
+
+Example: If your credit card limit is 50,000 rupees, spending only up to 15,000 rupees (30%) and paying the bill in full before the due date keeps your score in the top tier.
+
+Remember: A good credit score is built slowly through consistent, on-time repayments.
+
+Related lesson: Credit score: why it matters and how to build it
+=====
+- Insures deposits up to 5,00,000 rupees (5 Lakhs) per depositor, per insured bank.
+- Covers both principal and interest across savings, current, fixed (FD), and recurring (RD) accounts.
+- If you have multiple accounts in the same bank under the same capacity, they are clubbed together for the 5 Lakh limit.
+- Accounts held in different banks each enjoy a separate 5 Lakh insurance cover.
+
+Example: If you have 4,50,000 rupees principal and 30,000 rupees interest (total 4.8 Lakhs) in an insured bank that liquidates, DICGC refunds the entire 4.8 Lakhs.
+
+Remember: All commercial banks and cooperative banks in India are covered under DICGC deposit insurance.
+
+Related lesson: Deposit insurance and safety of bank deposits (DICGC)
+=====
+what is credit score?
+A credit score is a 3-digit number (ranging from 300 to 900 in India) that indicates your creditworthiness and repayment history to lenders.
+
+- A score of 750 or above is considered excellent and unlocks lower loan interest rates.
+- Key factors: Timely payment history (most important), credit utilization ratio (keep under 30%), age of credit, and credit mix.
+- High-interest late fees and default payments drastically reduce your score.
+- Credit bureaus in India include CIBIL, Experian, Equifax, and CRIF High Mark.
+
+Example: If your credit card limit is 50,000 rupees, spending only up to 15,000 rupees (30%) and paying the bill in full before the due date keeps your score in the top tier.
+
+Remember: A good credit score is built slowly through consistent, on-time repayments.
+
+Related lesson: Credit score: why it matters and how to build it
+=====

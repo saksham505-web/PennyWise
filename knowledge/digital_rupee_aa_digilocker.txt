@@ -1,0 +1,8 @@
+TITLE: Digital Rupee, Account Aggregator and DigiLocker (sources: RBI FAME 2024, NCFE handbook 2024)
+Digital Rupee: according to the February 2024 RBI booklet, it is legal tender just like physical currency, but digital. You use a Digital Rupee wallet instead of carrying cash, and can pay any person or merchant with a Digital Rupee wallet. It works with UPI, so you can scan a merchant's UPI QR code to pay. You can load and redeem it between the wallet and your bank account. At the time of the booklet it was in a pilot with selected banks, so check its current status.
+
+Account Aggregator (AA): a framework that lets you share your financial information, such as bank, investment and insurance data, in a secure way with lenders and other services. You give consent. The aggregator does not see or store your data, and it shares information only on your clear instruction. It can make loan processing faster, because lenders get verified data instead of piles of paper. Entities involved are regulated by RBI, SEBI, PFRDA and IRDAI.
+
+DigiLocker (digilocker.gov.in): a government service under Digital India that stores your documents in the cloud. You can keep ID such as Aadhaar and PAN, bank, insurance and tax records, and certificates, and access or share them anywhere. Many government bodies issue documents directly into DigiLocker. NCFE advises keeping digital copies of financial records as well as physical ones, such as statements, insurance policies, investment statements and tax records.
+
+Safety reminder: share data only through official, regulated channels and never through links from strangers.

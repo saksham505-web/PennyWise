@@ -1,0 +1,17 @@
+TITLE: Bank accounts, nomination and KYC (sources: RBI FAME 2024, NCFE handbook 2024, RBI school booklet)
+A bank takes deposits and gives loans. In India banks are regulated by RBI.
+
+Choosing a bank: consider branch location, nearby ATMs, minimum balance requirements, safe online banking, interest rates and service fees.
+
+Account types: a savings account (one person or joint, pays modest interest, some need a minimum balance) and a current account (for businesses, no interest). Minors can have savings accounts through a guardian. RBI's 2018 booklet says minors above 10 can open and operate accounts independently if they wish, though rules can be updated. On turning 18, the account holder should confirm the balance and update the operating instructions.
+
+Other bank types: Payments banks accept deposits (the 2024 RBI booklet says up to Rs. 2 lakh per customer), cannot give loans or credit cards, and do not take fixed or recurring deposits. Small finance banks serve underserved groups and give small loans. Business correspondents are bank agents who deliver basic services in remote areas.
+
+Good practices:
+1. Nominate someone when you open an account. A nominee receives the money after the depositor's death, which makes claims quicker. Update it when needed and get an acknowledgement.
+2. For joint fixed deposits, opt for the premature withdrawal facility, so claims are smooth.
+3. Check your passbook or statement regularly.
+4. Never share net banking ID, password, debit card PIN or OTP with anyone, including bank staff.
+5. Register for SMS and email alerts, and report suspicious transactions immediately.
+
+KYC is the identity check banks must do. Complete it only through the bank's official branch, app or website. Deposits are insured by DICGC (see the lesson on deposit insurance). Inactive accounts are covered in a separate lesson.
